@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webely | Digital Design Agency</title>
+    <meta name="description" content="Webely is a premium digital design agency crafting exceptional web experiences.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="glass-header">
+        <div class="container">
+            <a href="#" class="logo">webely<span class="dot">.</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact" class="btn-primary">Let's Talk</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <canvas id="hero-canvas"></canvas>
+            <div class="hero-content">
+                <h1 class="hero-title">Don't Just Be Online. <span class="gradient-text">Be Unforgettable.</span></h1>
+                <p class="hero-subtitle">Turn silent visitors into loyal advocates with an immersive digital presence
+                    that demands attention.</p>
+                <div class="hero-actions">
+                    <a href="#work" class="btn-primary large">See the Difference</a>
+                    <a href="#contact" class="btn-secondary large">Start Your Transformation</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll to explore</p>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="overline">Your Growth Engine</span>
+                    <h2>Results, Not Just Code</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="icon-box">01</div>
+                        <h3>Design That Converts</h3>
+                        <p>Frictionless journeys that guide your users exactly where you want them to go.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">02</div>
+                        <h3>Performance That Scales</h3>
+                        <p>Lightning-fast reliability that keeps your business running smoothly as you grow.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">03</div>
+                        <h3>A Voice That Resonates</h3>
+                        <p>Distinct brand identity that builds instant trust and recognition in a crowded market.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">04</div>
+                        <h3>Stories That Captivate</h3>
+                        <p>Motion and interaction that keep eyes on your brand longer, increasing engagement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section (Placeholder) -->
+        <section id="work">
+            <div class="container">
+                <div class="section-header">
+                    <span class="overline">Selected Work</span>
+                    <h2>Featured Projects</h2>
+                </div>
+                <div class="work-grid">
+                    <div class="work-item">
+                        <div class="work-image placeholder-dark"></div>
+                        <div class="work-info">
+                            <h3>Project Alpha</h3>
+                            <p>E-commerce Platform</p>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-image placeholder-light"></div>
+                        <div class="work-info">
+                            <h3>Studio Beta</h3>
+                            <p>Portfolio Website</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <span class="overline">Your Partner</span>
+                        <h2>We don't just build websites. We build businesses.</h2>
+                        <p>Your digital presence is your most powerful asset. We bridge the gap between where you are
+                            and where you deserve to be, using cutting-edge technology and timeless design to elevate
+                            your market position.</p>
+                        <a href="#contact" class="btn-text">See how we work &rarr;</a>
+                    </div>
+                    <div class="about-visual placeholder-gradient"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2>Ready to evolve?</h2>
+                        <p>Your future customers are waiting. Let's give them a reason to choose you.</p>
+                        <p class="email">hello@webely.com</p>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="What are your goals for next year?" rows="4" required></textarea>
+                        <button type="submit" class="btn-primary block">Start Your Transformation</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">webely.</div>
+                <div class="footer-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                </div> <!-- Corrected closing tag -->
+            </div>
+            <p class="copyright">&copy; 2026 Webely Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
