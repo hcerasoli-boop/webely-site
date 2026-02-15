@@ -1,0 +1,8 @@
+{
+    "name": "webely-site",
+    "version": "1.0.0",
+    "description": "Webely Professional Website",
+    "scripts": {
+        "build": "echo 'Static site - no build required'"
+    }
+}
